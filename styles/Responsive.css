@@ -1,3 +1,41 @@
-@media screen and (max-width: 576px) {
-    
+@media screen and (max-width: 600px) {
+  .header-container {
+    max-width: 90%;
+  }
+  .main-container {
+    max-width: 90%;
+  }
+  .nav-menu-icon {
+    display: block;
+  }
+  .nav-logo img {
+    width: 28px;
+  }
+  .nav-logo h1 {
+    font-size: 21px;
+  }
+  .nav-category {
+    display: none;
+  }
+  .banner {
+    padding: 32px 24px;
+  }
+  .find-container {
+    flex-direction: column;
+  }
+  .tours-img {
+    width: 100%;
+  }
+  .tours-img > img {
+    width: 100%;
+  }
+  .tours-content > h1 {
+    font-size: 25px;
+  }
+  .tours-content {
+    width: 100%;
+  }
+  .tours-section {
+    flex-direction: column;
+  }
 }

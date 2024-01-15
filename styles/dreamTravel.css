@@ -1,11 +1,139 @@
+@import url("https://fonts.googleapis.com/css2?family=Mulish:wght@400;500;600;700;800;900&display=swap");
 
-
-*{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
-body{
-    font-family: serif,sans-serif;
+body {
+  font-family: "Mulish", sans-serif;
+}
+/* header section start */
+.header-container {
+  max-width: 1170px;
+  margin: 50px auto;
+}
+.nav-section {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.primary-color {
+  color: #ff5400;
+}
+.home {
+  font-weight: 700;
+}
+.nav-logo {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+}
+.nav-logo img {
+  width: 48px;
+}
+.nav-logo h1 {
+  font-size: 38px;
+  font-weight: 800;
+}
+.nav-category a {
+  text-decoration: none;
+  margin-left: 44px;
+  font-size: 18px;
+}
+.nav-menu-icon {
+  display: none;
+}
+.nav-menu-icon i {
+  font-size: 20px;
 }
 
+/* main container style */
+.main-container {
+  max-width: 1170px;
+  margin: 0 auto;
+}
+.banner {
+  background: linear-gradient(
+      180deg,
+      rgba(19, 19, 24, 0.8) 0%,
+      rgba(19, 19, 24, 0) 100%
+    ),
+    url("/Images/Group\ 13\ \(1\)\ \(1\).png");
+  border-radius: 15px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 106px 185px;
+  color: #ffffff;
+  text-align: center;
+}
+.banner-content > h1 {
+  font-size: 5vw;
+  font-weight: 800;
+}
+.banner-content > p {
+  line-height: 24px;
+  margin-top: 24px;
+}
+.find-container {
+  border-radius: 8px;
+  background: rgba(255, 255, 255, 0.3);
+  padding: 16px;
+  display: flex;
+  justify-content: center;
+  gap: 24px;
+  margin-top: 48px;
+  width: 100%;
+}
+.find-container select {
+  padding: 16px;
+  border-radius: 5px;
+  color: #08080876;
+  width: 100%;
+}
+.find-container i {
+  font-size: 20px;
+  margin-right: 10px;
+}
+.primary-btn {
+  font-size: 20px;
+  padding: 16px 34px;
+  background: #ff5400;
+  border-radius: 5px;
+  border: none;
+  color: #ffffff;
+  font-weight: 700;
+}
+
+/* Tours section style */
+.tours-section {
+  width: 100%;
+  display: flex;
+  gap: 53px;
+  margin: 100px 0;
+}
+.tours-content {
+  width: 50%;
+}
+.tours-img {
+  width: 50%;
+}
+.tours-img > img {
+  width: 100%;
+}
+.tours-content > ul > li {
+  margin-left: 25px;
+  margin-bottom: 16px;
+  line-height: 26px;
+}
+.tours-content > h1 {
+  font-size: 40px;
+  font-weight: 800;
+  line-height: 26px;
+  margin-bottom: 30px;
+}
+.tours-content > ul,
+p {
+  margin-bottom: 24px;
+  line-height: 26px;
+}
