@@ -86,6 +86,18 @@
   .deals-banner-card > p > span {
     display: none;
   }
+  .perfectPlace-section{
+    flex-direction: column;
+}
+.perfectPlace-content{
+    width: 100%;
+   }
+   .perfectPlace-video{
+       width: 100%;
+   }
+   .perfectPlace-content > h1 {
+    font-size: 24px;
+  }
   .newsletter-section {
     flex-direction: column;
   }
