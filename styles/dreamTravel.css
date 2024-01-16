@@ -59,7 +59,7 @@ body {
       rgba(19, 19, 24, 0.8) 0%,
       rgba(19, 19, 24, 0) 100%
     ),
-    url("/Images/Group\ 13\ \(1\)\ \(1\).png");
+    url("/Images/banner.png");
   border-radius: 15px;
   background-repeat: no-repeat;
   background-size: cover;
@@ -136,4 +136,62 @@ body {
 p {
   margin-bottom: 24px;
   line-height: 26px;
+}
+
+/* destination section */
+
+/* whyChooseUs section */
+.whyChooseUs-section {
+  margin: 100px 0;
+}
+.whyChooseUs-title-desc {
+  text-align: center;
+}
+.whyChooseUs-card {
+  width: 100%;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  justify-content: center;
+  gap: 24px;
+  flex-wrap: wrap;
+}
+.card-1 {
+  border-radius: 16px;
+  border: 1px solid rgba(251, 181, 99, 0.2);
+  background: rgba(251, 181, 99, 0.05);
+}
+.card-2 {
+  border-radius: 16px;
+  border: 1px solid rgba(41, 206, 246, 0.2);
+  background: rgba(41, 206, 246, 0.05);
+}
+.card-3 {
+  width: 50%;
+  grid-column: span 2;
+  border-radius: 16px;
+  border: 1px solid rgba(233, 68, 68, 0.2);
+  background: rgba(233, 68, 68, 0.05);
+  margin: 0 auto;
+}
+.card-1,
+.card-2,
+.card-3 {
+  padding: 32px;
+}
+.whyChooseUs-card img {
+  margin-bottom: 32px;
+}
+.whyChooseUs-card h1 {
+  font-size: 24px;
+  font-weight: 800;
+  margin-bottom: 16px;
+}
+.whyChooseUs-title-desc {
+  max-width: 643px;
+  margin: 0 auto 48px;
+}
+.whyChooseUs-title-desc > h1 {
+  font-size: 40px;
+  font-weight: 800;
+  margin-bottom: 24px;
 }
