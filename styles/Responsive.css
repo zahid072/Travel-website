@@ -1,4 +1,10 @@
 @media screen and (max-width: 600px) {
+    .tours-section,
+    .whyChooseUs-section,
+    .deals-section,
+    .newsletter-section{
+        margin: 40px 0;
+    }
   .header-container {
     max-width: 90%;
   }
@@ -43,6 +49,7 @@
   }
   .tours-section {
     flex-direction: column;
+    gap: 24px;
   }
   .card-3 {
     grid-column: span 1;
