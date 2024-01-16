@@ -1,10 +1,10 @@
 @media screen and (max-width: 600px) {
-    .tours-section,
-    .whyChooseUs-section,
-    .deals-section,
-    .newsletter-section{
-        margin: 40px 0;
-    }
+  .tours-section,
+  .whyChooseUs-section,
+  .deals-section,
+  .newsletter-section {
+    margin: 40px 0;
+  }
   .header-container {
     max-width: 90%;
   }
@@ -75,17 +75,17 @@
   .extra-section > h1 {
     font-size: 30px;
   }
-  .deals-section>h1{
+  .deals-section > h1 {
     font-size: 24px;
-}
+  }
   .deals-banner-1,
   .deals-banner-2,
   .deals-banner-3 {
     padding: 24px;
   }
-  .card-right{
+  .card-right {
     margin-left: 0;
-}
+  }
   .deals-banner-card {
     margin-top: 40%;
     padding: 24px;
@@ -93,16 +93,16 @@
   .deals-banner-card > p > span {
     display: none;
   }
-  .perfectPlace-section{
+  .perfectPlace-section {
     flex-direction: column;
-}
-.perfectPlace-content{
+  }
+  .perfectPlace-content {
     width: 100%;
-   }
-   .perfectPlace-video{
-       width: 100%;
-   }
-   .perfectPlace-content > h1 {
+  }
+  .perfectPlace-video {
+    width: 100%;
+  }
+  .perfectPlace-content > h1 {
     font-size: 24px;
   }
   .newsletter-section {
