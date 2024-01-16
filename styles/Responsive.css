@@ -45,4 +45,21 @@
   .whyChooseUs-card {
     grid-template-columns: repeat(1, 1fr);
   }
+  .whyChooseUs-title-desc > h1,
+  .destination-content > h1 {
+    font-size: 20px;
+  }
+  .destination-img > div {
+    width: 100%;
+  }
+  .destination-img > div > img {
+    width: 100%;
+    object-fit: cover;
+  }
+  .extra-section-card{
+   flex-direction: column;
+}
+.extra-section>h1{
+    font-size: 30px;
+}
 }
