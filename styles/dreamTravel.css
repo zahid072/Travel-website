@@ -352,6 +352,18 @@ p {
 }
 .perfectPlace-video {
   width: 50%;
+  position: relative;
+}
+.perfectPlace-video::before{
+  content: "Watch Our Mountain in Bangladesh";
+  font-size: 20px;
+  font-weight: 700;
+  text-align: center;
+  position: absolute;
+  color: #fff;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
 }
 video {
   border-radius: 16px;
