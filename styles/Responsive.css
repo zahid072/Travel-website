@@ -68,6 +68,24 @@
   .extra-section > h1 {
     font-size: 30px;
   }
+  .deals-section>h1{
+    font-size: 24px;
+}
+  .deals-banner-1,
+  .deals-banner-2,
+  .deals-banner-3 {
+    padding: 24px;
+  }
+  .card-right{
+    margin-left: 0;
+}
+  .deals-banner-card {
+    margin-top: 40%;
+    padding: 24px;
+  }
+  .deals-banner-card > p > span {
+    display: none;
+  }
   .newsletter-section {
     flex-direction: column;
   }

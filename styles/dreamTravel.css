@@ -103,6 +103,7 @@ body {
   border: none;
   color: #ffffff;
   font-weight: 700;
+  cursor: pointer;
 }
 
 /* Tours section style */
@@ -272,6 +273,79 @@ p {
   font-weight: 700;
 }
 
+/* deals section styles */
+.deals-section{
+    margin: 100px 0;
+    text-align: center;
+}
+.deals-section>h1{
+    font-size: 40px;
+    font-weight: 800;
+}
+.deals-section>p{
+    max-width: 643px;
+    margin: 24px auto;
+}
+
+.deals-banner-1{
+   background: url("../Images/Group\ 39.png");  
+}
+.deals-banner-2{
+    background: url("../Images/Group\ 40.png");   
+}
+.deals-banner-3{
+    background: url("../Images/Group\ 39.png");
+}
+.deals-banner>img{
+    width: 100%;
+}
+
+.deals-banner-1,
+.deals-banner-2,
+.deals-banner-3{
+    background-size: cover;
+    padding: 50px;
+    margin-bottom: 24px;
+    border-radius: 16px;
+}
+.card-right{
+    margin-left: 50%;
+}
+.deals-banner-card{   
+    max-width: 579px;
+    text-align: start;
+    padding: 50px;
+    border-radius: 16px;
+    border: 2px solid #FFF;
+    background: rgba(255, 255, 255, 0.80);
+    backdrop-filter: blur(2.5px);
+}
+.deals-banner-card>div{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 16px;
+}
+.deals-banner-card>div>p{
+   margin-bottom: 0;
+}
+.deals-banner-card>div>p>i{
+    color: #ff5400;
+    font-size: 18px;
+}
+.deals-banner-card>h1{
+    font-size: 24px;
+    font-weight: 800;
+    margin: 24px 0;
+}
+.deals-banner-card>p{
+max-width: 643px;
+}
+.deals-banner-card>h3{
+    font-size: 20px;
+    font-weight: 800;
+    color: #ff5400;
+    margin-bottom: 24px;
+}
 /* newsletter section style */
 .newsletter-section {
   margin: 100px 0;
